@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Zero",
+        "img": "https://i.imgur.com/n8y4ZES.png",
+        "selected": false
+    },
+    {
+        "id": 2,
+        "name": "One",
+        "img": "https://i.imgur.com/rJAtTnm.png",
+        "selected": false
+    },
+    {
+        "id": 3,
+        "name": "Two",
+        "img": "https://i.imgur.com/bhjVBVh.png",
+        "selected": false
+    },
+    {
+        "id": 4,
+        "name": "Three",
+        "img": "https://i.imgur.com/JRkVr4u.png",
+        "selected": false
+    },
+    {
+        "id": 5,
+        "name": "Four",
+        "img": "https://i.imgur.com/PJ3ZfyC.png",
+        "selected": false
+    },
+    {
+        "id": 6,
+        "name": "Five",
+        "img": "https://i.imgur.com/Ow3m0RP.png",
+        "selected": false
+    },
+    {
+        "id": 7,
+        "name": "Mikhail",
+        "img": "https://i.imgur.com/ze5BglH.png",
+        "selected": false
+    },
+    {
+        "id": 8,
+        "name": "Accord",
+        "img": "https://i.imgur.com/TycNAK1.png",
+        "selected": false
+    },
+    {
+        "id": 9,
+        "name": "2B",
+        "img": "https://i.imgur.com/6TqlQtD.png",
+        "selected": false
+    },
+    {
+        "id": 10,
+        "name": "9S",
+        "img": "https://i.imgur.com/CmP44Kt.png",
+        "selected": false
+    },
+    {
+        "id": 11,
+        "name": "A2",
+        "img": "https://i.imgur.com/q48JAOE.png",
+        "selected": false
+    },
+    {
+        "id": 12,
+        "name": "Nier",
+        "img": "https://i.imgur.com/UCu71Wy.png",
+        "selected": false
+    },
+    {
+        "id": 13,
+        "name": "Emil",
+        "img": "https://i.imgur.com/HZ9uIlX.png",
+        "selected": false
+    }
+]

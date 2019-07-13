@@ -27,16 +27,16 @@ class Container extends Component {
 		// To check match with selected image
 		this.state.selectedChar.forEach(character => {
 
-			// if id matches
+			// If id
 			if (character.id == id) {
 
-				// change isSelected to true
+				//The character has been selected before
 				isSelected = true;
 			}
 		})
 
 		if (isSelected) {
-			this.endGame();
+			this.gameOver();
 		}
 		else {
 			this.state.characters.forEach(character => {
@@ -46,7 +46,7 @@ class Container extends Component {
 							selectedChar: [...this.state.selectedChar, character]
 						}
 					);
-					// Updates Scire
+					// Update Score
 					this.updateScore();
 				}
 			})
@@ -60,20 +60,18 @@ class Container extends Component {
 
 	}
 
-	// function to update the current game's score
+	// Update current score
 	updateScore = () => {
-		// set the new score
 		this.setState(
 			{
 				score: this.state.score + 1
 			}
 		);
 		this.props.updateCurrentScore(this.state.score);
-		console.log("Testing Score: " + this.state.score);
 	}
 
-
-	endGame = () => {
+	//If character has been selected before
+	gameOver = () => {
 		this.props.updateHighScore(this.state.score);
 		this.setState({
 			score: 1,
@@ -93,7 +91,7 @@ class Container extends Component {
 								key = {character.id}
 								id = {character.id}
 								alt = {character.name}
-								endGame = {this.endGame}
+								gameOver = {this.gameOver}
 								clickHandler = {this.clickHandler}
 								score = {this.state.score}
 							/>

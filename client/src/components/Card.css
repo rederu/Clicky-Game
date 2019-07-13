@@ -1,3 +1,7 @@
-.dranier-img{
-    width:3rem;
+.card-details {
+    box-shadow: 5px 5px 10px #1b0f0f;
+}
+
+.card-details:hover .dranier-img{
+    opacity: 0.3;
 }

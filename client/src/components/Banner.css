@@ -1,0 +1,16 @@
+.jumbotron{
+    background-image: url("https://i.imgur.com/1whEfJM.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron h1, .jumbotron h5{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.jumbotron p{
+    font-family: 'Proza Libre', sans-serif;
+    text-shadow: 2px 2px 4px black;
+}

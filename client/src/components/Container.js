@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Card from './Card';
 import Chars from "./../dranier.json"
 import shuffle from "shuffle-array";
-
+import './Container.css';
 
 
 class Container extends Component {
@@ -85,7 +85,7 @@ class Container extends Component {
 	render() {
 		return (
 			<div className="container mt-5" id="card-container">
-				<div className="row">
+				<div className="row row-align">
 					{Chars.map(
 						character =>
 							<Card
